@@ -53,8 +53,8 @@ int main(void) {
     char str2[] = "Hello";
     char str3[] = "World";
 
-    enum CompResult result1;
-    enum CompResult result2;
+    volatile enum CompResult result1;
+    volatile enum CompResult result2;
 
     result1 = eCompareString(str1, str2);
     result2 = eCompareString(str1, str3);
