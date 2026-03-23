@@ -1,3 +1,5 @@
+// przyciski to bity 4, 5, 6 i 7 w oknie (GPIO 0)
+
 //PUNKT 2
 #include <LPC21xx.H>
 
